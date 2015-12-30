@@ -2911,6 +2911,166 @@ Scheme
 				"antialias" "1"
 			}
 		}
+        
+        RobotoRegular12
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoRegular16
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoRegular24
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoRegular32
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoRegular34
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"34"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoRegular36
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoRegular42
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoRegular48
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoBlack12
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoBlack16
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoBlack24
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoBlack32
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoBlack34
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"34"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoBlack36
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoBlack42
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoBlack48
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
 
 	}
     
