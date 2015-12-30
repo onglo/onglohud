@@ -2831,8 +2831,91 @@ Scheme
 				"additive"	"0"
 			}
 		}
+        
+        RobotoThin12
+		{
+			"1"
+			{
+				"name"		"Roboto Thin"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoThin16
+		{
+			"1"
+			{
+				"name"		"Roboto Thin"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoThin24
+		{
+			"1"
+			{
+				"name"		"Roboto Thin"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoThin32
+		{
+			"1"
+			{
+				"name"		"Roboto Thin"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoThin34
+		{
+			"1"
+			{
+				"name"		"Roboto Thin"
+				"tall"		"34"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoThin36
+		{
+			"1"
+			{
+				"name"		"Roboto Thin"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoThin42
+		{
+			"1"
+			{
+				"name"		"Roboto Thin"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+        
+        RobotoThin48
+		{
+			"1"
+			{
+				"name"		"Roboto Thin"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
 
 	}
+    
+    // These are the fonts that i'm using in my custom HUD
+    
 
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -5168,5 +5251,22 @@ Scheme
 			}
 		}			
 		"7" "resource/ocra.ttf"
+        {
+        }
+        "8"
+        {
+            "font" "resource/fonts/Roboto-Thin.ttf"
+			"name" "Roboto Thin"
+        }
+        "9"
+        {
+            "font" "resource/fonts/Roboto-Regular.ttf"
+			"name" "Roboto Regular"
+        }
+        "10"
+        {
+            "font" "resource/fonts/Roboto-Black.ttf"
+			"name" "Roboto Black"
+        }
 	}
 }
