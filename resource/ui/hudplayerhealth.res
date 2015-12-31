@@ -39,7 +39,7 @@
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"73"
 		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"ypos"			"53"
 		"zpos"			"3"
 		"wide"			"0"
 		"tall"			"0w"
@@ -52,20 +52,20 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"100"	[$WIN32]
+		"xpos"			"45"	[$WIN32]
 		"xpos_minmode"	"65"	[$WIN32]
 		"xpos"			"60"	[$X360]
-		"ypos"			"43"	[$WIN32]
+		"ypos"			"83"	[$WIN32]
 		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
+		"wide"			"170"	[$WIN32]
 		"wide_minmode"	"40"	[$WIN32]
 		"wide"			"1000"	[$X360]
-		"tall"			"1000"	[$WIN32]
+		"tall"			"500"	[$WIN32]
 		"tall_minmode"	"40"	[$WIN32]
 		"tall"			"35"	[$X360]
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
@@ -75,7 +75,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"95"
-		"ypos"			"52"	[$WIN32]
+		"ypos"			"79"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"70"
 		"tall"			"48"
@@ -92,7 +92,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"97"
-		"ypos"			"54"	[$WIN32]
+		"ypos"			"81"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"70"
 		"tall"			"48"
@@ -108,7 +108,7 @@
  		"ControlName"	"CTFImagePanel"
  		"fieldName"		"TeamIndicator"
   		"xpos"			"95"
-  		"ypos"			"90"
+  		"ypos"			"117"
   		"zpos"			"2"
   		"wide"			"70"
   		"tall"	 		"3"

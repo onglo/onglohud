@@ -2911,6 +2911,33 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		RobotoThin54
+		{
+			"1"
+			{
+				"name"		"Roboto Thin"
+				"tall"		"54"
+				"antialias" "1"
+			}
+		}
+		RobotoThin60
+		{
+			"1"
+			{
+				"name"		"Roboto Thin"
+				"tall"		"60"
+				"antialias" "1"
+			}
+		}
+		RobotoThin64
+		{
+			"1"
+			{
+				"name"		"Roboto Thin"
+				"tall"		"64"
+				"antialias" "1"
+			}
+		}
         
         RobotoRegular12
 		{
@@ -2991,7 +3018,33 @@ Scheme
 				"antialias" "1"
 			}
 		}
-        
+		RobotoRegular54
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"54"
+				"antialias" "1"
+			}
+		}
+        RobotoRegular60
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"60"
+				"antialias" "1"
+			}
+		}
+		RobotoRegular64
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"64"
+				"antialias" "1"
+			}
+		}
         RobotoBlack12
 		{
 			"1"
@@ -3068,6 +3121,33 @@ Scheme
 			{
 				"name"		"Roboto Black"
 				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		RobotoBlack54
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"54"
+				"antialias" "1"
+			}
+		}
+		RobotoBlack60
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"60"
+				"antialias" "1"
+			}
+		}
+		RobotoBlack64
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"64"
 				"antialias" "1"
 			}
 		}
