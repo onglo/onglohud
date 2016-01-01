@@ -44,7 +44,7 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"RobotoBlack48"
 		"fgcolor"		"255 255 255 255"
-		"xpos"			"4"
+		"xpos"			"17"
 		"xpos_minmode"	"8"
 		"ypos"			"0"
 		"ypos_minmode"	"2"
@@ -65,10 +65,10 @@
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"RobotoBlack48"
 		"fgcolor"		"0 0 0 255"
-		"xpos"			"6"
+		"xpos"			"19"
 		"xpos_minmode"	"9"
 		"xpos_hidef"	"2"
-		"ypos"			"1"
+		"ypos"			"2"
 		"ypos_minmode"	"2"
 		"ypos_hidef"	"2"
 		"ypos_lodef"	"2"
@@ -91,7 +91,7 @@
 		"font_lodef"	"HudFontMedium"
 		"font_minmode"	"HudFontSmall"
 		"fgcolor"		"255 255 255 255"
-		"xpos"			"59"
+		"xpos"			"72"
 		"xpos_minmode"	"65"
 		"ypos"			"8"
 		"ypos_lodef"	"10"
@@ -112,7 +112,7 @@
 		"font_lodef"	"HudFontMedium"
 		"font_minmode"	"HudFontSmall"
 		"fgcolor"		"0 0 0 255"
-		"xpos"			"60"
+		"xpos"			"73"
 		"xpos_minmode"	"66"
 		"ypos"			"9"
 		"ypos_lodef"	"11"
@@ -169,5 +169,47 @@
 		"labelText"		"%Ammo%"
 		
 	}		
-								
+	"AmmoBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"AmmoBG"
+		"xpos"			"15"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"50"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 100"
+		
+		if_mvm
+		{
+			"visible"	"0"
+		}
+	}		
+	"TeamIndicator"
+  	{
+ 		"ControlName"	"CTFImagePanel"
+ 		"fieldName"		"TeamIndicator"
+  		"xpos"			"35"
+  		"ypos"			"47"
+  		"zpos"			"2"
+  		"wide"			"70"
+  		"tall"	 		"3"
+  		"autoResize"	"0"
+  		"pinCorner"		"0"
+  		"visible" 		"1" 
+  		"enabled" 		"1"
+  		"image"			"../hud/color_panel_brown"
+  		"scaleImage"		"1"
+  		"teambg_1"		"../hud/color_panel_brown"
+  		"teambg_2"		"../hud/color_panel_red"
+  		"teambg_3"		"../hud/color_panel_blu"
+  		
+  		"src_corner_height"		"40"				// pixels inside the image
+  		"src_corner_width"		"40"			
+  		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+  		"draw_corner_height" 	"0"	
+ 	}									
 }

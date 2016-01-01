@@ -20,6 +20,25 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
+	"HealthBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"95"
+		"ypos"			"70"
+		"zpos"			"0"
+		"wide"			"70"
+		"tall"			"50"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 255 255 0"
+		
+		if_mvm
+		{
+			"visible"	"0"
+		}
+	}		
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -52,21 +71,21 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"45"	[$WIN32]
+		"xpos"			"10000"	[$WIN32]
 		"xpos_minmode"	"65"	[$WIN32]
 		"xpos"			"60"	[$X360]
-		"ypos"			"83"	[$WIN32]
+		"ypos"			"10000"	[$WIN32]
 		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
-		"wide"			"170"	[$WIN32]
+		"wide"			"0"	[$WIN32]
 		"wide_minmode"	"40"	[$WIN32]
 		"wide"			"1000"	[$X360]
-		"tall"			"500"	[$WIN32]
+		"tall"			"0"	[$WIN32]
 		"tall_minmode"	"40"	[$WIN32]
 		"tall"			"35"	[$X360]
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -74,10 +93,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"95"
+		"xpos"			"70"
 		"ypos"			"79"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"70"
+		"wide"			"120"
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
@@ -87,14 +106,14 @@
 		"fgcolor"		"255 255 255 255"
 	
 	}
-	"PlayerStatusHealthValueBG "
+	"PlayerStatusHealthValueBG"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"97"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"71 "
 		"ypos"			"81"	[$WIN32]
 		"zpos"			"1"
-		"wide"			"70"
+		"wide"			"120"
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
